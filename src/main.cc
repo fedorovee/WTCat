@@ -13,6 +13,19 @@
 #include <iostream>
 #include "cli.h"
 
-int main(int argc, const char** argv, const char** envp) {
-    cli::parseArgs(argc, argv, envp);
+int main(int argc, const char** argv) {
+    if (argc < 2) {
+        cli::showHelp();
+        return 1;
+    }
+
+    std::map<char, std::string> options;
+
+    if (cli::getOpt(argc, argv, options)) {
+        for (const auto& [key, value] : options) {
+            std::cout << key << ' ' << value << '\n'; // Test
+        }
+    }
+
+    return 0;
 }
