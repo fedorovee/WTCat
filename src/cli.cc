@@ -11,16 +11,20 @@ namespace cli
 
 void showHelp() {
     const char* helpMessage = 
-        "usage: wtcat [-v] [-h] [-d <dir>] [-f <img format>]";
+        "\n Usage: wtcat [options]\n\n "
+        "-h, --help \t\t\t\tShow help.\n "
+        "-v, --version \t\t\t\tShow version and about.\n "
+        "-f, --format <picture format> \t\tSpecify format of output pictures.\n "
+        "-d, --directory <path> \t\tSet folder for concatenating contain pictures.\n";
 
     std::cerr << helpMessage;
 }
 
 void showAbout() {
     const char* aboutMessage = 
-        "wtcat version " WTCAT_VERSION_STR "\n"
-        "author: Emil Fedorov (fedorovee)\n"
-        "repo: https://github.com/fedorovee/WTCat";
+        "\n wtcat version " WTCAT_VERSION_STR "\n "
+        "author: Emil Fedorov (fedorovee)\n "
+        "repo: https://github.com/fedorovee/WTCat\n";
 
     std::cout << aboutMessage;
 }
