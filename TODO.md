@@ -1,9 +1,22 @@
 # TODO
 
-- [x] Command line interface
-- [ ] Processing directories and filenames
-- [ ] Decoding algorithm for JPEG and PNG formats
-- [ ] 2D-Array representation of images (maybe?)
-- - [ ] Image concatenation within 2D-Array
-- - [ ] Saving a 2D-Array of pixels into an image with the source format
-- [ ] Rework the command line interface
+## Processing
+
+- [ ] JPEG decoder & encoder
+- [ ] PNG decoder & encoder
+
+Or
+
+- [ ] Reading picture files using libraries like OpenCV etc.
+
+___
+
+### First way
+
+- [ ] Converting processed pictures into 2D array with RGB
+- [ ] Concatenating arrays vertically
+
+## Interface
+
+- [ ] CLI
+- [ ] GUI
