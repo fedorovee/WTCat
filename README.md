@@ -8,6 +8,8 @@ Eng: WTCat is a free, open-source program for "concatenating" images of Webtoon 
 
 ## Usage
 
+### Preparing / Подготовка
+
 ### From command line / Из командной строки
 
 ### Drag and drop

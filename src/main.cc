@@ -1,4 +1,4 @@
-/*
+/**
  * Copyrigth (c) 2023 feerus23
  *
  * Webtoon concatenator / shortly WTCat.
