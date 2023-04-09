@@ -10,9 +10,9 @@ namespace w_jpeg
 {
 
 namespace Markers {
-    std::vector<unsigned char> JFIF = { 0xFF, 0xD8 };
-    std::vector<unsigned char> SOS = { 0xFF, 0xDA };
-    std::vector<unsigned char> EOI = { 0xFF, 0xD9 };
+    const std::vector<unsigned char> JFIF = { 0xFF, 0xD8 };
+    const std::vector<unsigned char> SOS = { 0xFF, 0xDA };
+    const std::vector<unsigned char> EOI = { 0xFF, 0xD9 };
 };
 
 int JPEG::GetInitCode() {
